@@ -36,7 +36,7 @@ public class CharacterController : MonoBehaviour {
 
         if (Input.GetKey(KeyCode.A))
         {
-            playerLight.transform.position = new Vector3(playerLight.transform.position.x-1, playerLight.transform.position.y, playerLight.transform.position.z);
+            //playerLight.transform.position = new Vector3(playerLight.transform.position.x-1, playerLight.transform.position.y, playerLight.transform.position.z);
         }
             body.velocity = new Vector2(Mathf.Lerp(0, (horizontal), 1),
                                     Mathf.Lerp(0, (vertical), 1)).normalized * currentSpeed;
