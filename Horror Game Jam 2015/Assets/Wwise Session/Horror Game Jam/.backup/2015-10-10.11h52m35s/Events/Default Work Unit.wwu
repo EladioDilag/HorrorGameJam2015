@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B36FAB68-81B7-4C0E-97FE-21F33F29EA4A}" SchemaVersion="69">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{B36FAB68-81B7-4C0E-97FE-21F33F29EA4A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_HGJ_STA_Danger_Zone" ID="{FBA65F5E-5B26-4DCF-BC05-A2DE42A7397E}">
+					<ChildrenList>
+						<Action Name="Play" ID="{1F4EC797-A71B-4AA1-B0EE-2240AD44920C}" ShortID="446967414" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{00907EC5-A94E-4DB9-8096-3C66EA93413A}" Global="false">
+									<ObjectRef Name="HGJ_TRN_In" ID="{CEFC78C9-F1D6-4DFE-9AA2-0085FBC04027}" WorkUnitID="{3711841F-EC1D-4C52-870A-26339413CE52}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{E3A7A668-4B79-4EB7-AB83-44BBEF14635C}" ShortID="456140938" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{9D8BB102-649A-476F-8729-90A459311F39}" Global="false">
+									<ObjectRef Name="HGJ_STA_Danger_Zone" ID="{537D642F-EA65-4742-AC7A-80C61ED9CCB7}" WorkUnitID="{4087EFB9-1575-43B5-A171-001405AADD77}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HGJ_AMB_In_Game" ID="{ED1DD8F8-B8DD-4D3C-AEE3-7B088E023B21}">
+					<ChildrenList>
+						<Action Name="Play" ID="{553AACA5-68D8-4CAF-BD58-ABCBA6D03F18}" ShortID="938132503" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.5">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{5BA779D9-468A-47E8-A574-FEC97A27EEB8}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{B7425EC9-4FEC-4392-A3F2-B97BCE010316}" Global="false">
+									<ObjectRef Name="HGJ_AMB_SlasherStage_01" ID="{908DED18-A15F-4EC7-9415-BB779D3F4BDE}" WorkUnitID="{3711841F-EC1D-4C52-870A-26339413CE52}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{F0A9ACD4-DBCA-4BD1-9074-F124BC8E0B6E}" ShortID="16196479" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{1132B599-11C7-4C45-9D10-2D49169AED4A}" Global="false">
+									<ObjectRef Name="HGJ_STG_In-Game" ID="{6848A2C8-B9E0-4591-8722-39BE5E222E5F}" WorkUnitID="{4087EFB9-1575-43B5-A171-001405AADD77}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_In_Game_Music" ID="{A171E9FE-80FA-483D-A8F1-C00E60A81E47}">
+					<ChildrenList>
+						<Action Name="Play" ID="{2C7917EA-8929-4E54-BBA4-BC0740B19C19}" ShortID="983895835" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{46D104A1-839A-48B3-AACF-DA27AE02761D}" Global="false">
+									<ObjectRef Name="In-Game Music" ID="{2ADA119E-710E-41A5-BC1F-C2A32B01F92F}" WorkUnitID="{769040BD-7AEC-4C4E-AF5C-08B91A3657E2}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

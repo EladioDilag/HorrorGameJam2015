@@ -1,0 +1,1108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3711841F-EC1D-4C52-870A-26339413CE52}" SchemaVersion="70">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{3711841F-EC1D-4C52-870A-26339413CE52}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchContainer Name="HGJ_IG_Ambiences" ID="{E0A7BC56-26EC-4629-9DEC-3DA7DD17DB76}" ShortID="22099447">
+					<PropertyList>
+						<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D05CD596-6C10-4861-8DF3-7A1258EF5116}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="HGJ_IG_AMB_NST_Danger_01" ID="{77BD50BD-70C4-455A-849F-894A12FCE67B}" ShortID="260153643" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D05CD596-6C10-4861-8DF3-7A1258EF5116}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MX Bus" ID="{421921F2-D360-455B-A5DC-1F89FBBF84A4}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="HGJ_AMB_SlasherStage_02" ID="{41F5E578-5AC2-4FD3-9322-159D0047D24B}" ShortID="174552016">
+									<Language>SFX</Language>
+									<AudioFile>HGJ_AMB_SlasherStage_02.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="59245805"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="HGJ_AMB_SlasherStage_02" ID="{41F5E578-5AC2-4FD3-9322-159D0047D24B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="HGJ_IG_AMB_NST_Calm_Wind_01" ID="{A4E33587-66C8-4CDA-B514-21FCC5B8C5FD}" ShortID="853699173" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D05CD596-6C10-4861-8DF3-7A1258EF5116}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MX Bus" ID="{421921F2-D360-455B-A5DC-1F89FBBF84A4}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="HGJ_AMB_SlasherStage_01_Wind" ID="{44196848-1C5C-457A-A657-CCC82278400C}" ShortID="74446755">
+									<Language>SFX</Language>
+									<AudioFile>HGJ_AMB_SlasherStage_01_Wind.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="HGJ_AMB_SlasherStage_01_Wind" ID="{44196848-1C5C-457A-A657-CCC82278400C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="HGJ_IG_AMB_NST_Calm_Drone_01" ID="{95341021-062D-4DE3-BF3D-EC68FC72C492}" ShortID="1065206291" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D05CD596-6C10-4861-8DF3-7A1258EF5116}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MX Bus" ID="{421921F2-D360-455B-A5DC-1F89FBBF84A4}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="HGJ_AMB_SlasherStage_01_Drone" ID="{65CC046A-ACE7-4DD5-A0A6-1758E553531B}" ShortID="1044765477">
+									<Language>SFX</Language>
+									<AudioFile>HGJ_AMB_SlasherStage_01_Drone.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="HGJ_AMB_SlasherStage_01_Drone" ID="{65CC046A-ACE7-4DD5-A0A6-1758E553531B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="HGJ_IG_PLY_AMB_Heartbeat" ID="{076C8A77-EEF8-48EC-BB06-951C4F8F98DC}" ShortID="413112369">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{758D9137-F8F5-4967-B776-073D4FAE0062}" ShortID="672255190">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Stage_03" ID="{64957ADA-09AF-4D06-9EE6-32038E52DC17}" WorkUnitID="{E0BBB8F6-6E62-47AC-804E-10D8FBFE0557}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{ED2B874E-331D-4634-8CF9-635AD0886E70}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-25</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{2103FF07-3053-45FE-BFE9-6A9B9B963672}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-200"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="10">
+									<RTPCList>
+										<RTPC Name="" ID="{F255FBB5-7BBD-489A-81FC-0226E10C9929}" ShortID="968845324">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Stage_03" ID="{64957ADA-09AF-4D06-9EE6-32038E52DC17}" WorkUnitID="{E0BBB8F6-6E62-47AC-804E-10D8FBFE0557}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{0F5529B5-CFE0-45A0-9FF6-02C39100DE72}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="1"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-8.3</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>-9.4</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-1</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{284E044D-C0AD-4CC0-BEAB-17D3C6945117}" ShortID="733608954">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Stage_03" ID="{64957ADA-09AF-4D06-9EE6-32038E52DC17}" WorkUnitID="{E0BBB8F6-6E62-47AC-804E-10D8FBFE0557}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{3B22772D-E85F-4B60-B6D2-37CFB7041B3E}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-2.4677</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom>
+										<Attenuation Name="Attenuation (Custom)" ID="{9A162150-3B48-41DD-96E7-584AAA44286E}" ShortID="470228893">
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{640D2AA6-2EC9-4ADB-98E6-5C494E1F2B2E}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>100</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D05CD596-6C10-4861-8DF3-7A1258EF5116}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="HGJ_IG_PLY_AMB_HeartBeat_01" ID="{312C3BFE-DD92-4ACC-B3D7-F7A908D561BD}" ShortID="1008199385" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D05CD596-6C10-4861-8DF3-7A1258EF5116}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="HeartBeat_First" ID="{CF8C8E76-36D3-4B2D-A96C-98E68BE9029A}" ShortID="296690286">
+											<Language>SFX</Language>
+											<AudioFile>HeartBeat_First.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="HeartBeat_First" ID="{CF8C8E76-36D3-4B2D-A96C-98E68BE9029A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="HGJ_IG_PLY_AMB_HeartBeat_02" ID="{1C1D3BFD-E6AA-48D6-9077-9180FBF5D396}" ShortID="1017532733" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D05CD596-6C10-4861-8DF3-7A1258EF5116}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="HeartBeat_Second" ID="{496F4A8C-BB9E-4723-B801-9C28AFB364B2}" ShortID="1057847352">
+											<Language>SFX</Language>
+											<AudioFile>HeartBeat_Second.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="HeartBeat_Second" ID="{496F4A8C-BB9E-4723-B801-9C28AFB364B2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{A958E2D5-539B-4180-A048-9061FCB0A8AD}"/>
+							</PositioningInfo>
+						</RandomSequenceContainer>
+						<Sound Name="HGJ_IG_TRN_In_Danger" ID="{CEFC78C9-F1D6-4DFE-9AA2-0085FBC04027}" ShortID="688546917" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D05CD596-6C10-4861-8DF3-7A1258EF5116}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MX_GameJam_Trn_In_01" ID="{7482FC39-5E09-430C-84E2-6BEC02183E69}" ShortID="665170856">
+									<Language>SFX</Language>
+									<AudioFile>MX_GameJam_Trn_In_01.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MX_GameJam_Trn_In_01" ID="{7482FC39-5E09-430C-84E2-6BEC02183E69}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="HGJ_IG_TRN_Out_Safe" ID="{9457631D-1CEB-4891-BBF4-0FF4873D6E42}" ShortID="1061498949" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D05CD596-6C10-4861-8DF3-7A1258EF5116}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="HGJ_TRN_Out_02" ID="{A51A55FD-B42F-4E74-B52B-7470CCE6ECB0}" ShortID="608994833">
+									<Language>SFX</Language>
+									<AudioFile>HGJ_TRN_Out_02.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="HGJ_TRN_Out_02" ID="{A51A55FD-B42F-4E74-B52B-7470CCE6ECB0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="HGJ_IG_TRN_Out_Dead" ID="{C126324B-72AE-4BCF-BFDB-EF323B8229D2}" ShortID="239317530" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D05CD596-6C10-4861-8DF3-7A1258EF5116}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="HGJ_TRN_Out_01" ID="{C1CFB966-B6F4-49C4-8BA1-3E76BE8CBA40}" ShortID="5557524">
+									<Language>SFX</Language>
+									<AudioFile>HGJ_TRN_Out_01.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="HGJ_TRN_Out_01" ID="{C1CFB966-B6F4-49C4-8BA1-3E76BE8CBA40}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="HGJ_IG_BG" ID="{B8DFA6A9-B9C5-44C9-A0DC-2F6C693CB594}" ShortID="391225964">
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="3">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{7FA79E04-1296-42A5-947C-300921A6AE47}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D05CD596-6C10-4861-8DF3-7A1258EF5116}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="HGJ_STG_Hospital_01" ID="{1D8E7FDB-B473-4E27-BAA7-DDC47F81A79C}" ShortID="1066732723" Type="SoundFX">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D05CD596-6C10-4861-8DF3-7A1258EF5116}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="HGJ_STG_Hospital_01" ID="{5BA7295A-4DC0-4A97-9FD4-977188CDA39B}" ShortID="821737202">
+											<Language>SFX</Language>
+											<AudioFile>HGJ_STG_Hospital_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="HGJ_STG_Hospital_01" ID="{5BA7295A-4DC0-4A97-9FD4-977188CDA39B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="HGJ_STG_Static_01" ID="{BAD010D1-8D90-4522-ABA1-97C3B48145ED}" ShortID="474399669" Type="SoundFX">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D05CD596-6C10-4861-8DF3-7A1258EF5116}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="HGJ_STG_Static_01" ID="{F607DAD2-476E-46EF-BF10-749FE6982C23}" ShortID="994170687">
+											<Language>SFX</Language>
+											<AudioFile>HGJ_STG_Static_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="HGJ_STG_Static_01" ID="{F607DAD2-476E-46EF-BF10-749FE6982C23}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="HGJ_STG_ThunderStorm_01" ID="{3DE9A2FA-3878-4062-BB74-C97780ACBFCD}" ShortID="614863586" Type="SoundFX">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D05CD596-6C10-4861-8DF3-7A1258EF5116}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="HGJ_STG_ThunderStorm_01" ID="{743D2F2B-0345-4161-9488-908A0CE98C4D}" ShortID="92653198">
+											<Language>SFX</Language>
+											<AudioFile>HGJ_STG_ThunderStorm_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="HGJ_STG_ThunderStorm_01" ID="{743D2F2B-0345-4161-9488-908A0CE98C4D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="HGJ_IG_STG" ID="{AA56CC5A-B060-43A2-93AA-991F57384D89}" ShortID="336554170">
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>50</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{3A3B51F1-2AF0-4E94-A378-EA8403CC5A26}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="10"/>
+													<Property Name="Min" Type="Real64" Value="-5"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D05CD596-6C10-4861-8DF3-7A1258EF5116}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="HGJ_IG_STG_DoorClose_04" ID="{D768425B-DB83-4C17-9C60-75B088484B71}" ShortID="34472312" Type="SoundFX">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D05CD596-6C10-4861-8DF3-7A1258EF5116}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="HGJ_STG_DoorClose_04" ID="{D71B090D-75DE-4999-8334-11DB04170381}" ShortID="288749758">
+											<Language>SFX</Language>
+											<AudioFile>HGJ_STG_DoorClose_04.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="HGJ_STG_DoorClose_04" ID="{D71B090D-75DE-4999-8334-11DB04170381}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="HGJ_IG_STG_DoorClose_06" ID="{607D262C-1C0F-4B8C-AC69-5B71703C2CD2}" ShortID="786629678" Type="SoundFX">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D05CD596-6C10-4861-8DF3-7A1258EF5116}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="HGJ_STG_DoorClose_06" ID="{B111D3E5-D3D1-49CA-8665-E681CA689B1F}" ShortID="860772263">
+											<Language>SFX</Language>
+											<AudioFile>HGJ_STG_DoorClose_06.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="HGJ_STG_DoorClose_06" ID="{B111D3E5-D3D1-49CA-8665-E681CA689B1F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="HGJ_IG_STG_FemScream_01" ID="{0B4739BE-30D3-42D7-B897-72828D0E67FD}" ShortID="843160182" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D05CD596-6C10-4861-8DF3-7A1258EF5116}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="HGJ_STG_FemScream_01" ID="{DE9E9237-69CF-4EEC-A4AA-8A77621968BA}" ShortID="964928842">
+											<Language>SFX</Language>
+											<AudioFile>HGJ_STG_FemScream_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="HGJ_STG_FemScream_01" ID="{DE9E9237-69CF-4EEC-A4AA-8A77621968BA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="HGJ_IG_STG_FemScream_02" ID="{4E4E1D2B-3409-426C-8A34-8824AB53FC30}" ShortID="31672432" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D05CD596-6C10-4861-8DF3-7A1258EF5116}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="HGJ_STG_FemScream_02" ID="{C27C20AD-677A-41C8-8383-586544E62AA9}" ShortID="580346311">
+											<Language>SFX</Language>
+											<AudioFile>HGJ_STG_FemScream_02.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="HGJ_STG_FemScream_02" ID="{C27C20AD-677A-41C8-8383-586544E62AA9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="HGJ_IG_STG_FemScream_03" ID="{B0853F5B-DBE0-4382-8B86-E94B1D8344F1}" ShortID="534278359" Type="SoundFX">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D05CD596-6C10-4861-8DF3-7A1258EF5116}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="HGJ_STG_FemScream_03" ID="{DBADEE48-816B-4BA7-A3BE-F380E97A37A0}" ShortID="57475360">
+											<Language>SFX</Language>
+											<AudioFile>HGJ_STG_FemScream_03.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="HGJ_STG_FemScream_03" ID="{DBADEE48-816B-4BA7-A3BE-F380E97A37A0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="HGJ_IG_STG_FemScream_04" ID="{A4EA20CD-9DCB-49B1-9BE4-5468B3AECF2D}" ShortID="675478925" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D05CD596-6C10-4861-8DF3-7A1258EF5116}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="HGJ_STG_FemScream_04" ID="{BAB5B7B5-0046-4986-92F3-D61568BC3240}" ShortID="1009319747">
+											<Language>SFX</Language>
+											<AudioFile>HGJ_STG_FemScream_04.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="HGJ_STG_FemScream_04" ID="{BAB5B7B5-0046-4986-92F3-D61568BC3240}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="HGJ_IG_STG_FemScream_05" ID="{3DE63A2D-A0E2-4267-81EF-8F290C6C7D0D}" ShortID="139263930" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D05CD596-6C10-4861-8DF3-7A1258EF5116}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="HGJ_STG_FemScream_05" ID="{C24DC2AF-38B8-42D5-8871-B67958C56C3B}" ShortID="719459161">
+											<Language>SFX</Language>
+											<AudioFile>HGJ_STG_FemScream_05.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="HGJ_STG_FemScream_05" ID="{C24DC2AF-38B8-42D5-8871-B67958C56C3B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="HGJ_IG_STG_MetalDoorBang_01" ID="{2B7AB8BA-9C17-4685-A86C-89F7562B0EEB}" ShortID="154929688" Type="SoundFX">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D05CD596-6C10-4861-8DF3-7A1258EF5116}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="HGJ_STG_MetalDoorBang_01" ID="{1FB5A283-A1ED-4962-8D37-83E4DD977799}" ShortID="450286571">
+											<Language>SFX</Language>
+											<AudioFile>HGJ_STG_MetalDoorBang_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="HGJ_STG_MetalDoorBang_01" ID="{1FB5A283-A1ED-4962-8D37-83E4DD977799}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="HGJ_IG_STG_WaterDrip_01" ID="{856CE1A9-B516-4727-9215-92CF2F85CDE2}" ShortID="317938448" Type="SoundFX">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{1C05AC1B-851D-4F73-97FE-92E656B5D193}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D05CD596-6C10-4861-8DF3-7A1258EF5116}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="HGJ_STG_WaterDrip_01" ID="{FA9E463F-AD05-4582-85D3-C72DC9B88432}" ShortID="938969356">
+											<Language>SFX</Language>
+											<AudioFile>HGJ_STG_WaterDrip_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="HGJ_STG_WaterDrip_01" ID="{FA9E463F-AD05-4582-85D3-C72DC9B88432}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="HGJ_IG_STG_WaterDrip_02" ID="{32743CDA-EB2C-4414-B0C6-69AD9DA85309}" ShortID="84109091" Type="SoundFX">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D05CD596-6C10-4861-8DF3-7A1258EF5116}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="HGJ_STG_WaterDrip_02" ID="{BB376DBA-E12E-4396-837F-4AC597C7F884}" ShortID="169067542">
+											<Language>SFX</Language>
+											<AudioFile>HGJ_STG_WaterDrip_02.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="HGJ_STG_WaterDrip_02" ID="{BB376DBA-E12E-4396-837F-4AC597C7F884}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="HGJ_IG_STG_WaterDrip_03" ID="{788B9EEC-2EE9-43F2-83BB-DE9FB23026A7}" ShortID="643710225" Type="SoundFX">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D05CD596-6C10-4861-8DF3-7A1258EF5116}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="HGJ_STG_WaterDrip_03" ID="{6A78F117-23E4-4EA3-940A-E74618E013E7}" ShortID="521230012">
+											<Language>SFX</Language>
+											<AudioFile>HGJ_STG_WaterDrip_03.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="HGJ_STG_WaterDrip_03" ID="{6A78F117-23E4-4EA3-940A-E74618E013E7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="HGJ_IG_PLY_Death" ID="{F8F27290-FBFD-4CB1-805E-155B2633C1A5}" ShortID="938360757">
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{442A2437-B037-4A33-A8C8-BEAC2F2A66FE}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D05CD596-6C10-4861-8DF3-7A1258EF5116}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Meat_Slice_02" ID="{D876D33A-92AD-48A9-86C5-A1F3763E1AF1}" ShortID="14889744" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D05CD596-6C10-4861-8DF3-7A1258EF5116}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Meat_Slice_02" ID="{E3FE1C76-3CB2-4C7A-B2DC-9835D4CF0725}" ShortID="1033218552">
+											<Language>SFX</Language>
+											<AudioFile>Meat_Slice_02.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Meat_Slice_02" ID="{E3FE1C76-3CB2-4C7A-B2DC-9835D4CF0725}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Meat_Slice_03" ID="{21AA9622-0F79-4DDB-A509-75A12FEB26D7}" ShortID="1026746170" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D05CD596-6C10-4861-8DF3-7A1258EF5116}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Meat_Slice_03" ID="{F021D60C-54C6-4272-904C-75057F341427}" ShortID="308725935">
+											<Language>SFX</Language>
+											<AudioFile>Meat_Slice_03.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Meat_Slice_03" ID="{F021D60C-54C6-4272-904C-75057F341427}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Meat_Slice_05" ID="{FE649DC0-B0DA-4D20-9631-AF03398E593A}" ShortID="54069524" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D05CD596-6C10-4861-8DF3-7A1258EF5116}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Meat_Slice_05" ID="{BCF8855C-DB7F-46A6-8BD7-22EA594EF53F}" ShortID="192012326">
+											<Language>SFX</Language>
+											<AudioFile>Meat_Slice_05.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Meat_Slice_05" ID="{BCF8855C-DB7F-46A6-8BD7-22EA594EF53F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Meat_Slice_08" ID="{0C6DB28F-4587-485B-8BCE-BBB64A0F00B6}" ShortID="584734965" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D05CD596-6C10-4861-8DF3-7A1258EF5116}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Meat_Slice_08" ID="{BCFEB53E-3FDC-4EC1-AD2B-2E083A851020}" ShortID="867409335">
+											<Language>SFX</Language>
+											<AudioFile>Meat_Slice_08.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Meat_Slice_08" ID="{BCFEB53E-3FDC-4EC1-AD2B-2E083A851020}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Meat_Slice_10" ID="{E0232800-F421-46CB-A4CE-D513A0866FAA}" ShortID="442784953" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D05CD596-6C10-4861-8DF3-7A1258EF5116}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Meat_Slice_10" ID="{8BFEED49-06D1-492E-B4B6-E6F9A80423B5}" ShortID="375968327">
+											<Language>SFX</Language>
+											<AudioFile>Meat_Slice_10.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Meat_Slice_10" ID="{8BFEED49-06D1-492E-B4B6-E6F9A80423B5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Meat_Slice_Heavy_02" ID="{3C2C4B2F-4706-4AF6-AFDF-41337B0FBA0A}" ShortID="557089197" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D05CD596-6C10-4861-8DF3-7A1258EF5116}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Meat_Slice_Heavy_02" ID="{10E704E8-C1F3-4091-AE05-1FB8F3469EFC}" ShortID="581314811">
+											<Language>SFX</Language>
+											<AudioFile>Meat_Slice_Heavy_02.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Meat_Slice_Heavy_02" ID="{10E704E8-C1F3-4091-AE05-1FB8F3469EFC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="HGJ_IG_AMB_FST_Calm_Drums_01" ID="{CD4E72E0-AEAB-4C8C-A848-1D24AB8B6FA3}" ShortID="762560779" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D05CD596-6C10-4861-8DF3-7A1258EF5116}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="HGJ_FinalStage_Drums" ID="{2B4577A1-9D0E-4225-BA22-35D6730D9992}" ShortID="157065427">
+									<Language>SFX</Language>
+									<AudioFile>HGJ_FinalStage_Drums.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="HGJ_FinalStage_Drums" ID="{2B4577A1-9D0E-4225-BA22-35D6730D9992}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupRef Name="State_of_Player" ID="{CD24C379-FF71-4826-9304-04319CB78672}"/>
+						<DefaultSwitchRef Name="Start" ID="{179A7BD5-E6D2-4477-B088-0FE56299D3A7}"/>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="HGJ_IG_TRN_Out_Safe" ID="{9457631D-1CEB-4891-BBF4-0FF4873D6E42}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="HGJ_IG_AMB_NST_Calm_Drone_01" ID="{95341021-062D-4DE3-BF3D-EC68FC72C492}"/>
+								<PropertyList>
+									<Property Name="ContinuePlay" Type="bool" Value="True"/>
+									<Property Name="FadeInTime" Type="Real64">
+										<ValueList>
+											<Value>2</Value>
+										</ValueList>
+									</Property>
+									<Property Name="FadeOutTime" Type="Real64">
+										<ValueList>
+											<Value>2</Value>
+										</ValueList>
+									</Property>
+								</PropertyList>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="HGJ_IG_TRN_Out_Dead" ID="{C126324B-72AE-4BCF-BFDB-EF323B8229D2}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="HGJ_IG_STG" ID="{AA56CC5A-B060-43A2-93AA-991F57384D89}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="HGJ_IG_PLY_AMB_Heartbeat" ID="{076C8A77-EEF8-48EC-BB06-951C4F8F98DC}"/>
+								<PropertyList>
+									<Property Name="FadeInTime" Type="Real64">
+										<ValueList>
+											<Value>2</Value>
+										</ValueList>
+									</Property>
+									<Property Name="FadeOutTime" Type="Real64">
+										<ValueList>
+											<Value>4</Value>
+										</ValueList>
+									</Property>
+								</PropertyList>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="HGJ_IG_AMB_NST_Calm_Wind_01" ID="{A4E33587-66C8-4CDA-B514-21FCC5B8C5FD}"/>
+								<PropertyList>
+									<Property Name="ContinuePlay" Type="bool" Value="True"/>
+									<Property Name="FadeInTime" Type="Real64">
+										<ValueList>
+											<Value>2</Value>
+										</ValueList>
+									</Property>
+									<Property Name="FadeOutTime" Type="Real64">
+										<ValueList>
+											<Value>2</Value>
+										</ValueList>
+									</Property>
+								</PropertyList>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="HGJ_IG_PLY_Death" ID="{F8F27290-FBFD-4CB1-805E-155B2633C1A5}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="HGJ_IG_BG" ID="{B8DFA6A9-B9C5-44C9-A0DC-2F6C693CB594}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="HGJ_IG_AMB_NST_Danger_01" ID="{77BD50BD-70C4-455A-849F-894A12FCE67B}"/>
+								<PropertyList>
+									<Property Name="ContinuePlay" Type="bool" Value="True"/>
+									<Property Name="FadeInTime" Type="Real64">
+										<ValueList>
+											<Value>2</Value>
+										</ValueList>
+									</Property>
+									<Property Name="FadeOutTime" Type="Real64">
+										<ValueList>
+											<Value>4</Value>
+										</ValueList>
+									</Property>
+								</PropertyList>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="HGJ_IG_TRN_In_Danger" ID="{CEFC78C9-F1D6-4DFE-9AA2-0085FBC04027}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="HGJ_IG_AMB_FST_Calm_Drums_01" ID="{CD4E72E0-AEAB-4C8C-A848-1D24AB8B6FA3}"/>
+								<PropertyList>
+									<Property Name="ContinuePlay" Type="bool" Value="True"/>
+									<Property Name="FadeInTime" Type="Real64">
+										<ValueList>
+											<Value>0.5</Value>
+										</ValueList>
+									</Property>
+									<Property Name="FadeOutTime" Type="Real64">
+										<ValueList>
+											<Value>2</Value>
+										</ValueList>
+									</Property>
+								</PropertyList>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="You_Are_Fucked" ID="{0E114563-F367-4E56-8709-3DB23FCBA60C}"/>
+								<ItemList>
+									<ItemRef Name="HGJ_IG_AMB_NST_Danger_01" ID="{77BD50BD-70C4-455A-849F-894A12FCE67B}"/>
+									<ItemRef Name="HGJ_IG_PLY_AMB_Heartbeat" ID="{076C8A77-EEF8-48EC-BB06-951C4F8F98DC}"/>
+									<ItemRef Name="HGJ_IG_AMB_FST_Calm_Drums_01" ID="{CD4E72E0-AEAB-4C8C-A848-1D24AB8B6FA3}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Noped" ID="{2A744866-47EC-4892-B10C-9001132AE5BA}"/>
+								<ItemList>
+									<ItemRef Name="HGJ_IG_TRN_Out_Safe" ID="{9457631D-1CEB-4891-BBF4-0FF4873D6E42}"/>
+									<ItemRef Name="HGJ_IG_BG" ID="{B8DFA6A9-B9C5-44C9-A0DC-2F6C693CB594}"/>
+									<ItemRef Name="HGJ_IG_STG" ID="{AA56CC5A-B060-43A2-93AA-991F57384D89}"/>
+									<ItemRef Name="HGJ_IG_AMB_NST_Calm_Wind_01" ID="{A4E33587-66C8-4CDA-B514-21FCC5B8C5FD}"/>
+									<ItemRef Name="HGJ_IG_AMB_NST_Calm_Drone_01" ID="{95341021-062D-4DE3-BF3D-EC68FC72C492}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Dead" ID="{59045B7C-B1B4-4E9E-B0E9-BB50232E5F73}"/>
+								<ItemList>
+									<ItemRef Name="HGJ_IG_PLY_Death" ID="{F8F27290-FBFD-4CB1-805E-155B2633C1A5}"/>
+									<ItemRef Name="HGJ_IG_TRN_Out_Dead" ID="{C126324B-72AE-4BCF-BFDB-EF323B8229D2}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Danger" ID="{CE7F5C7C-B21F-45FC-B198-74E07BDA8149}"/>
+								<ItemList>
+									<ItemRef Name="HGJ_IG_TRN_In_Danger" ID="{CEFC78C9-F1D6-4DFE-9AA2-0085FBC04027}"/>
+									<ItemRef Name="HGJ_IG_AMB_NST_Danger_01" ID="{77BD50BD-70C4-455A-849F-894A12FCE67B}"/>
+									<ItemRef Name="HGJ_IG_PLY_AMB_Heartbeat" ID="{076C8A77-EEF8-48EC-BB06-951C4F8F98DC}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Start" ID="{179A7BD5-E6D2-4477-B088-0FE56299D3A7}"/>
+								<ItemList>
+									<ItemRef Name="HGJ_IG_BG" ID="{B8DFA6A9-B9C5-44C9-A0DC-2F6C693CB594}"/>
+									<ItemRef Name="HGJ_IG_STG" ID="{AA56CC5A-B060-43A2-93AA-991F57384D89}"/>
+									<ItemRef Name="HGJ_IG_AMB_NST_Calm_Wind_01" ID="{A4E33587-66C8-4CDA-B514-21FCC5B8C5FD}"/>
+									<ItemRef Name="HGJ_IG_AMB_NST_Calm_Drone_01" ID="{95341021-062D-4DE3-BF3D-EC68FC72C492}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

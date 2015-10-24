@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4087EFB9-1575-43B5-A171-001405AADD77}" SchemaVersion="69">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{4087EFB9-1575-43B5-A171-001405AADD77}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicPlaylistContainer Name="HGJ_STG_In-Game" ID="{6848A2C8-B9E0-4591-8722-39BE5E222E5F}" ShortID="375654706">
+					<PropertyList>
+						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Tempo" Type="Real64" Value="82"/>
+						<Property Name="UserAuxSendVolume3" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D05CD596-6C10-4861-8DF3-7A1258EF5116}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="HGJ_STG_Hospital_01" ID="{B572E9A4-01F7-402E-A080-36EBD4CE97B3}" ShortID="182288040">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="119999.977324263"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D05CD596-6C10-4861-8DF3-7A1258EF5116}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="HGJ_STG_Hospital_01" ID="{26C90EDB-DAA9-427C-BDC8-7C5C7E4D5595}" ShortID="159919184">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MX_GameJam_Amb_Hospital_01" ID="{7CF7462E-8470-4495-80C9-2E15BC88F5DC}" ShortID="298637740">
+											<Language>SFX</Language>
+											<AudioFile>MX_GameJam_Amb_Hospital_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{E8BDD1DA-25E7-4FBC-A6B1-F1D934A5DA6D}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{21BF6E22-447B-4B2A-A173-6AA70F1B3792}">
+											<ClipList>
+												<MusicClip Name="MX_GameJam_Amb_Hospital_01" ID="{FFEFC2B8-6B30-43F6-95ED-D53C56AFC021}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="26341.4512471655"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="MX_GameJam_Amb_Hospital_01" ID="{7CF7462E-8470-4495-80C9-2E15BC88F5DC}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{3458D14A-ECC3-418D-8369-942A677716DA}"/>
+								<MusicCue Name="Exit Cue" ID="{8F816B55-E901-473D-8734-DA8F4C5E600F}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="26341.4512471655"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="HGJ_STG_Static_01" ID="{B5BC3DBA-065C-4E11-BD13-DD675FAC6DAD}" ShortID="998128080">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="49756.0997732426"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D05CD596-6C10-4861-8DF3-7A1258EF5116}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="HGJ_STG_Static_01" ID="{8FB0A867-5652-4407-8455-1BD68BE2FBA6}" ShortID="1026188838">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MX_GameJam_Amb_Static_01" ID="{0619695B-DA78-41D4-B306-7A74FA49E53F}" ShortID="976739064">
+											<Language>SFX</Language>
+											<AudioFile>MX_GameJam_Amb_Static_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{022D2380-FF18-43BE-91B7-5584B9D1D9A5}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{5A9633C2-A79E-4FF9-9496-942B3392F9A3}">
+											<ClipList>
+												<MusicClip Name="MX_GameJam_Amb_Static_01" ID="{C0266D61-B4B0-4C39-AF67-399EAAC55A27}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="49756.0997732426"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="MX_GameJam_Amb_Static_01" ID="{0619695B-DA78-41D4-B306-7A74FA49E53F}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{FA4D1C80-ABC2-4404-A161-A86E2878F9FE}"/>
+								<MusicCue Name="Exit Cue" ID="{0B2D69D1-295E-4D0F-8F07-1577F65347BA}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="49756.0997732426"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="HGJ_STG_ThunderStorm_01" ID="{D52AF098-678D-4DE9-B478-084E992D044C}" ShortID="144266477">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="49756.0997732426"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D05CD596-6C10-4861-8DF3-7A1258EF5116}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="HGJ_STG_ThunderStorm_01" ID="{94726C29-46B0-48C2-9DEF-1518A9E4ABC5}" ShortID="201710064">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MX_GameJam_Amb_ThunderStorm_01" ID="{7CD69522-D2F5-4DC5-897A-1D56AF1F70CE}" ShortID="986245171">
+											<Language>SFX</Language>
+											<AudioFile>MX_GameJam_Amb_ThunderStorm_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{64D00B1E-0B2B-4A1B-BF68-8B9100DBCB06}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{244F0C41-D9BF-415D-AFBA-ED615AF2236E}">
+											<ClipList>
+												<MusicClip Name="MX_GameJam_Amb_ThunderStorm_01" ID="{E2A23361-598B-4497-8EA1-4BD9AAFF9AAA}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="49756.0997732426"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="MX_GameJam_Amb_ThunderStorm_01" ID="{7CD69522-D2F5-4DC5-897A-1D56AF1F70CE}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{B83ADA7C-410D-4BCF-A734-C31AA66B77C0}"/>
+								<MusicCue Name="Exit Cue" ID="{6E8B2DEE-1783-4101-8D17-FD9AD4ABE9D1}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="49756.0997732426"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{B0A41A40-F7D9-4324-BACD-A884B563536F}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{C9DCECF9-BD78-499B-A5E8-43F79C63D787}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{DC945E6D-C361-4879-87D8-DFEC19D8B6CF}" ShortID="853035171">
+							<PropertyList>
+								<Property Name="LoopCount" Type="int16" Value="0"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{7964BDA3-8761-4261-89DE-AF39FAAB206E}" ShortID="880511341">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{E83B901F-AF39-480F-AC01-FED892016474}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="3"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{E5BED42A-35D1-4341-8D5D-86D080F6B6DC}" ShortID="653041516">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>33.3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="HGJ_STG_ThunderStorm_01" ID="{D52AF098-678D-4DE9-B478-084E992D044C}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{2852DDC2-7FAE-46BE-8E78-1D96660880BF}" ShortID="157683211">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{BD4314CB-3C74-4123-B7F5-110E1500B04D}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>33.3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="HGJ_STG_Hospital_01" ID="{B572E9A4-01F7-402E-A080-36EBD4CE97B3}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{3FFD5AC9-8ACA-489B-AA5F-5337226B9B02}" ShortID="129676782">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{68350617-BD9B-424A-8C8E-4773D66C3BAB}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>33.3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="HGJ_STG_Static_01" ID="{B5BC3DBA-065C-4E11-BD13-DD675FAC6DAD}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+				<MusicPlaylistContainer Name="HGJ_STA_Danger_Zone" ID="{537D642F-EA65-4742-AC7A-80C61ED9CCB7}" ShortID="394649953">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D05CD596-6C10-4861-8DF3-7A1258EF5116}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="HGJ_AMB_Danger_Zone" ID="{1AA2F91A-98F7-44FB-95B9-90CEDDCE08D2}" ShortID="921358696">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="24625"/>
+								<Property Name="Tempo" Type="Real64" Value="82"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D05CD596-6C10-4861-8DF3-7A1258EF5116}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="HGJ_AMB_SlasherStage_02" ID="{0DF261ED-AD0A-4C46-B68C-0B5D4A5CF9DF}" ShortID="204068333">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{155AFF4C-F1F9-485C-A7BC-7756911CC728}" ShortID="196132742">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Stage_02" ID="{922CADAE-01AB-45EA-8F51-B42DA449EFE6}" WorkUnitID="{E0BBB8F6-6E62-47AC-804E-10D8FBFE0557}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{73C10C37-8F08-4DCE-B7C0-25407554D1B4}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="HGJ_AMB_SlasherStage_02" ID="{3E0E26B4-A335-462A-BD6C-FE8CB2E512DE}" ShortID="336875646">
+											<Language>SFX</Language>
+											<AudioFile>HGJ_AMB_SlasherStage_02.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="59245805"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{2B05D697-25BD-4F09-8778-580EF95F7648}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{2B889126-AA83-4B60-BDF5-B78869E810FA}">
+											<ClipList>
+												<MusicClip Name="HGJ_AMB_SlasherStage_02" ID="{754C022E-DE56-4D74-94F5-B4CF72914C30}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="23414.6485260771"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="HGJ_AMB_SlasherStage_02" ID="{3E0E26B4-A335-462A-BD6C-FE8CB2E512DE}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="HGJ_AMB_SlasherStage_03" ID="{8BFBF798-E0D9-4123-BAD4-E7150C71B401}" ShortID="971815991">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{5D21ADC8-B30A-496D-873B-E9C1780B4DE4}" ShortID="536282919">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Stage_03" ID="{64957ADA-09AF-4D06-9EE6-32038E52DC17}" WorkUnitID="{E0BBB8F6-6E62-47AC-804E-10D8FBFE0557}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{B9303EBA-34EB-42AA-9A02-110C17950E8D}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="HGJ_AMB_SlasherStage_03" ID="{1D99BA16-5201-4DE1-8221-C842B1FC2675}" ShortID="915511499">
+											<Language>SFX</Language>
+											<AudioFile>HGJ_AMB_SlasherStage_03.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="809229208"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{F7D1178D-74BD-407B-AB4A-AE0A47408B54}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{2AD8FD7F-6702-4CC9-840D-161713D36829}">
+											<ClipList>
+												<MusicClip Name="HGJ_AMB_SlasherStage_03" ID="{A459772E-C816-4814-A41C-8E7701EEB52F}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="23414.6485260771"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="HGJ_AMB_SlasherStage_03" ID="{1D99BA16-5201-4DE1-8221-C842B1FC2675}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{7D5E1B07-3CC5-4E3F-84D5-2A4DD87232C3}"/>
+								<MusicCue Name="Exit Cue" ID="{E0C84E33-B409-436D-AAA8-9FC44F71101A}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="23414.6341463415"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{872FD43A-F1D5-4269-9AC7-D51D181BC511}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{56E3F81B-E8F9-4424-A864-D229FA97ECAA}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{17EC1C86-F3D4-4CFB-97AA-8DF4367B3CA0}" ShortID="530851586">
+							<PropertyList>
+								<Property Name="LoopCount" Type="int16" Value="0"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{9C1694F1-DAA5-4B4E-9F46-628878E74CB6}" ShortID="999233614">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{E49ECE9F-17D9-4925-8D28-0EE62BA18DBB}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="HGJ_AMB_Danger_Zone" ID="{1AA2F91A-98F7-44FB-95B9-90CEDDCE08D2}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

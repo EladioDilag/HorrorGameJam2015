@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B9C1C8DB-6C7D-475E-B8D3-CC9E13AE38B0}" SchemaVersion="70">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{B9C1C8DB-6C7D-475E-B8D3-CC9E13AE38B0}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Stage_02" ID="{ADC03A88-60AB-4495-835E-B01D827F143B}">
+					<ChildrenList>
+						<State Name="None" ID="{8F3DB67B-7A12-44CA-B471-E915FD767743}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="InGame" ID="{B48EB833-CAB5-4B47-92B6-6946CAD4BD6C}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="2"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{6456C101-131F-4D53-BF37-B9EA87A37F7E}"/>
+						<State Name="Stage_01" ID="{6CF34B4A-66AB-4532-9868-2901BA2C91D9}"/>
+						<State Name="Stage_02" ID="{7A993B0F-684E-4C8E-AE20-26A27C6F27FB}"/>
+						<State Name="Stage_03" ID="{11E36663-EEA6-4F08-BDAE-7EA7D8B4DE65}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Stage_01" ID="{6CF34B4A-66AB-4532-9868-2901BA2C91D9}"/>
+							<EndState Name="Stage_02" ID="{7A993B0F-684E-4C8E-AE20-26A27C6F27FB}"/>
+							<Time>0</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+				<StateGroup Name="Player_Slasher_Distance" ID="{3342D968-0ABE-4B7B-9ACA-CA8A9F48748C}">
+					<ChildrenList>
+						<State Name="None" ID="{B4B693E2-563C-4B34-B121-FD72F8A6602D}"/>
+						<State Name="Center_Radius" ID="{229163E1-0373-4F26-8F3C-7E3A8B20A492}"/>
+						<State Name="Outer_Radius" ID="{C95880B5-EA9C-4FC3-85F5-81348DE80C50}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Center_Radius" ID="{229163E1-0373-4F26-8F3C-7E3A8B20A492}"/>
+							<EndState Name="Outer_Radius" ID="{C95880B5-EA9C-4FC3-85F5-81348DE80C50}"/>
+							<Time>2</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Outer_Radius" ID="{C95880B5-EA9C-4FC3-85F5-81348DE80C50}"/>
+							<EndState Name="Center_Radius" ID="{229163E1-0373-4F26-8F3C-7E3A8B20A492}"/>
+							<Time>2</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

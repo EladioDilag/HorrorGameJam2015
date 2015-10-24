@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3711841F-EC1D-4C52-870A-26339413CE52}" SchemaVersion="69">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{3711841F-EC1D-4C52-870A-26339413CE52}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="HGJ_AMB_SlasherStage_01" ID="{908DED18-A15F-4EC7-9415-BB779D3F4BDE}" ShortID="414222701" Type="SoundFX">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D05CD596-6C10-4861-8DF3-7A1258EF5116}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="MX_GameJam_Amb_SlasherStage_01" ID="{E6F3094C-EB9A-458A-A404-FE64FEA70826}" ShortID="292300056">
+							<Language>SFX</Language>
+							<AudioFile>MX_GameJam_Amb_SlasherStage_01.wav</AudioFile>
+							<ConvertedFileIDList>
+								<File ID="345443716"/>
+							</ConvertedFileIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="MX_GameJam_Amb_SlasherStage_01" ID="{E6F3094C-EB9A-458A-A404-FE64FEA70826}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="HGJ_TRN_In" ID="{CEFC78C9-F1D6-4DFE-9AA2-0085FBC04027}" ShortID="688546917" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D05CD596-6C10-4861-8DF3-7A1258EF5116}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="MX_GameJam_Trn_In_01" ID="{7482FC39-5E09-430C-84E2-6BEC02183E69}" ShortID="665170856">
+							<Language>SFX</Language>
+							<AudioFile>MX_GameJam_Trn_In_01.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="MX_GameJam_Trn_In_01" ID="{7482FC39-5E09-430C-84E2-6BEC02183E69}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="New Sequence Container" ID="{40E55A79-0D41-4E1C-984A-2A99E00F27F6}" ShortID="657505294">
+					<PropertyList>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D05CD596-6C10-4861-8DF3-7A1258EF5116}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+						</Reference>
+					</ReferenceList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="STG_Test" ID="{905627BD-8C49-452E-88CE-118BBF4A5CCD}" ShortID="1066961123">
+					<PropertyList>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D05CD596-6C10-4861-8DF3-7A1258EF5116}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="STG_SOR TFM Hydr_Movement  06" ID="{6D5A8180-2B0A-471E-828D-38763AC8C285}" ShortID="612506757" Type="SoundFX">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{D35B804A-9075-4145-A42B-5937E06BF02F}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="600"/>
+													<Property Name="Min" Type="Real64" Value="-600"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Weight" Type="Real64">
+									<ValueList>
+										<Value>33</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D05CD596-6C10-4861-8DF3-7A1258EF5116}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="STG_SOR TFM Hydr_Movement  06" ID="{BEC48D46-8A79-4907-8E88-AE595D4A9CAD}" ShortID="248783717">
+									<Language>SFX</Language>
+									<AudioFile>STG_SOR TFM Hydr.Movement  06.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="STG_SOR TFM Hydr_Movement  06" ID="{BEC48D46-8A79-4907-8E88-AE595D4A9CAD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="STG_SOR TFM Hydr_Movement  07" ID="{DB3D2553-8991-499C-B356-974F05B7877B}" ShortID="533788897" Type="SoundFX">
+							<PropertyList>
+								<Property Name="Weight" Type="Real64">
+									<ValueList>
+										<Value>33</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D05CD596-6C10-4861-8DF3-7A1258EF5116}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="STG_SOR TFM Hydr_Movement  07" ID="{76DE6967-0326-4393-AA44-F200785FD2C7}" ShortID="341841761">
+									<Language>SFX</Language>
+									<AudioFile>STG_SOR TFM Hydr.Movement  07.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="STG_SOR TFM Hydr_Movement  07" ID="{76DE6967-0326-4393-AA44-F200785FD2C7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="STG_SOR TFM Hydr_Movement  12" ID="{68B10E01-F9F1-4D14-B017-059F84E1EF80}" ShortID="341985775" Type="SoundFX">
+							<PropertyList>
+								<Property Name="Weight" Type="Real64">
+									<ValueList>
+										<Value>33</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D05CD596-6C10-4861-8DF3-7A1258EF5116}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1472235E-A6D3-42D2-93C3-C772EF9B125E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="STG_SOR TFM Hydr_Movement  12" ID="{1A91F2D6-050A-45E4-8395-5956E73CC606}" ShortID="878172686">
+									<Language>SFX</Language>
+									<AudioFile>STG_SOR TFM Hydr.Movement  12.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="STG_SOR TFM Hydr_Movement  12" ID="{1A91F2D6-050A-45E4-8395-5956E73CC606}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

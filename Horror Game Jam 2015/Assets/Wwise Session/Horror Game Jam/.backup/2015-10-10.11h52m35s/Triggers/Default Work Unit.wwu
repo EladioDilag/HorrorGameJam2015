@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D64C3076-7AA7-4FCC-B79A-42CEAF1B473F}" SchemaVersion="69">
+	<Triggers>
+		<WorkUnit Name="Default Work Unit" ID="{D64C3076-7AA7-4FCC-B79A-42CEAF1B473F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Trigger Name="In_Game_Amb" ID="{290970A5-047D-4BA4-B349-D2DA770F90FB}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Triggers>
+</WwiseDocument>

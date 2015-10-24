@@ -1,0 +1,48 @@
+Event	ID	Name			Wwise Object Path	Notes
+	676781980	Play_IG_Ambiences			\Default Work Unit\Play_IG_Ambiences	
+	1426279440	Do_Not_Touch			\Default Work Unit\Do_Not_Touch	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	4154134024	State_of_Player			\Default Work Unit\State_of_Player	
+
+Switch	ID	Name	Switch Group			Notes
+	470759487	Noped	State_of_Player			
+	1281810935	Start	State_of_Player			
+	1604791578	You_Are_Fucked	State_of_Player			
+	2044049779	Dead	State_of_Player			
+	4174463524	Danger	State_of_Player			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	344719511	Stage_03			\Default Work Unit\Stage_03	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	5557524	HGJ_IG_TRN_Out_Dead	Y:\Desktop\Work\Knee Deep Audio\Unicorn Singularity\US_HorrorGameJam_Audio\Horror Game Jam\.cache\Windows\SFX\HGJ_TRN_Out_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\HGJ_IG_Ambiences\HGJ_IG_TRN_Out_Dead		2323380
+	57475360	HGJ_IG_STG_FemScream_03	Y:\Desktop\Work\Knee Deep Audio\Unicorn Singularity\US_HorrorGameJam_Audio\Horror Game Jam\.cache\Windows\SFX\HGJ_STG_FemScream_03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\HGJ_IG_Ambiences\HGJ_IG_STG\HGJ_IG_STG_FemScream_03		774504
+	59245805	HGJ_IG_AMB_NST_Danger_01	Y:\Desktop\Work\Knee Deep Audio\Unicorn Singularity\US_HorrorGameJam_Audio\Horror Game Jam\.cache\Windows\SFX\HGJ_AMB_SlasherStage_02_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\HGJ_IG_Ambiences\HGJ_IG_AMB_NST_Danger_01		4130408
+	74446755	HGJ_IG_AMB_NST_Calm_Wind_01	Y:\Desktop\Work\Knee Deep Audio\Unicorn Singularity\US_HorrorGameJam_Audio\Horror Game Jam\.cache\Windows\SFX\HGJ_AMB_SlasherStage_01_Wind_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\HGJ_IG_Ambiences\HGJ_IG_AMB_NST_Calm_Wind_01		4130408
+	92653198	HGJ_STG_ThunderStorm_01	Y:\Desktop\Work\Knee Deep Audio\Unicorn Singularity\US_HorrorGameJam_Audio\Horror Game Jam\.cache\Windows\SFX\HGJ_STG_ThunderStorm_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\HGJ_IG_Ambiences\HGJ_IG_BG\HGJ_STG_ThunderStorm_01		8777040
+	157065427	HGJ_IG_AMB_FST_Calm_Drums_01	Y:\Desktop\Work\Knee Deep Audio\Unicorn Singularity\US_HorrorGameJam_Audio\Horror Game Jam\.cache\Windows\SFX\HGJ_FinalStage_Drums_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\HGJ_IG_Ambiences\HGJ_IG_AMB_FST_Calm_Drums_01		2605484
+	169067542	HGJ_IG_STG_WaterDrip_02	Y:\Desktop\Work\Knee Deep Audio\Unicorn Singularity\US_HorrorGameJam_Audio\Horror Game Jam\.cache\Windows\SFX\HGJ_STG_WaterDrip_02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\HGJ_IG_Ambiences\HGJ_IG_STG\HGJ_IG_STG_WaterDrip_02		387284
+	192012326	Meat_Slice_05	Y:\Desktop\Work\Knee Deep Audio\Unicorn Singularity\US_HorrorGameJam_Audio\Horror Game Jam\.cache\Windows\SFX\Meat_Slice_05_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\HGJ_IG_Ambiences\HGJ_IG_PLY_Death\Meat_Slice_05		307560
+	288749758	HGJ_IG_STG_DoorClose_04	Y:\Desktop\Work\Knee Deep Audio\Unicorn Singularity\US_HorrorGameJam_Audio\Horror Game Jam\.cache\Windows\SFX\HGJ_STG_DoorClose_04_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\HGJ_IG_Ambiences\HGJ_IG_STG\HGJ_IG_STG_DoorClose_04		645428
+	296690286	HGJ_IG_PLY_AMB_HeartBeat_01	Y:\Desktop\Work\Knee Deep Audio\Unicorn Singularity\US_HorrorGameJam_Audio\Horror Game Jam\.cache\Windows\SFX\HeartBeat_First_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\HGJ_IG_Ambiences\HGJ_IG_PLY_AMB_Heartbeat\HGJ_IG_PLY_AMB_HeartBeat_01		354448
+	308725935	Meat_Slice_03	Y:\Desktop\Work\Knee Deep Audio\Unicorn Singularity\US_HorrorGameJam_Audio\Horror Game Jam\.cache\Windows\SFX\Meat_Slice_03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\HGJ_IG_Ambiences\HGJ_IG_PLY_Death\Meat_Slice_03		243492
+	375968327	Meat_Slice_10	Y:\Desktop\Work\Knee Deep Audio\Unicorn Singularity\US_HorrorGameJam_Audio\Horror Game Jam\.cache\Windows\SFX\Meat_Slice_10_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\HGJ_IG_Ambiences\HGJ_IG_PLY_Death\Meat_Slice_10		272864
+	450286571	HGJ_IG_STG_MetalDoorBang_01	Y:\Desktop\Work\Knee Deep Audio\Unicorn Singularity\US_HorrorGameJam_Audio\Horror Game Jam\.cache\Windows\SFX\HGJ_STG_MetalDoorBang_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\HGJ_IG_Ambiences\HGJ_IG_STG\HGJ_IG_STG_MetalDoorBang_01		2062992
+	521230012	HGJ_IG_STG_WaterDrip_03	Y:\Desktop\Work\Knee Deep Audio\Unicorn Singularity\US_HorrorGameJam_Audio\Horror Game Jam\.cache\Windows\SFX\HGJ_STG_WaterDrip_03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\HGJ_IG_Ambiences\HGJ_IG_STG\HGJ_IG_STG_WaterDrip_03		387284
+	580346311	HGJ_IG_STG_FemScream_02	Y:\Desktop\Work\Knee Deep Audio\Unicorn Singularity\US_HorrorGameJam_Audio\Horror Game Jam\.cache\Windows\SFX\HGJ_STG_FemScream_02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\HGJ_IG_Ambiences\HGJ_IG_STG\HGJ_IG_STG_FemScream_02		774504
+	581314811	Meat_Slice_Heavy_02	Y:\Desktop\Work\Knee Deep Audio\Unicorn Singularity\US_HorrorGameJam_Audio\Horror Game Jam\.cache\Windows\SFX\Meat_Slice_Heavy_02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\HGJ_IG_Ambiences\HGJ_IG_PLY_Death\Meat_Slice_Heavy_02		360988
+	608994833	HGJ_IG_TRN_Out_Safe	Y:\Desktop\Work\Knee Deep Audio\Unicorn Singularity\US_HorrorGameJam_Audio\Horror Game Jam\.cache\Windows\SFX\HGJ_TRN_Out_02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\HGJ_IG_Ambiences\HGJ_IG_TRN_Out_Safe		1106576
+	665170856	HGJ_IG_TRN_In_Danger	Y:\Desktop\Work\Knee Deep Audio\Unicorn Singularity\US_HorrorGameJam_Audio\Horror Game Jam\.cache\Windows\SFX\MX_GameJam_Trn_In_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\HGJ_IG_Ambiences\HGJ_IG_TRN_In_Danger		250396
+	719459161	HGJ_IG_STG_FemScream_05	Y:\Desktop\Work\Knee Deep Audio\Unicorn Singularity\US_HorrorGameJam_Audio\Horror Game Jam\.cache\Windows\SFX\HGJ_STG_FemScream_05_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\HGJ_IG_Ambiences\HGJ_IG_STG\HGJ_IG_STG_FemScream_05		774504
+	821737202	HGJ_STG_Hospital_01	Y:\Desktop\Work\Knee Deep Audio\Unicorn Singularity\US_HorrorGameJam_Audio\Horror Game Jam\.cache\Windows\SFX\HGJ_STG_Hospital_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\HGJ_IG_Ambiences\HGJ_IG_BG\HGJ_STG_Hospital_01		4646696
+	860772263	HGJ_IG_STG_DoorClose_06	Y:\Desktop\Work\Knee Deep Audio\Unicorn Singularity\US_HorrorGameJam_Audio\Horror Game Jam\.cache\Windows\SFX\HGJ_STG_DoorClose_06_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\HGJ_IG_Ambiences\HGJ_IG_STG\HGJ_IG_STG_DoorClose_06		516356
+	867409335	Meat_Slice_08	Y:\Desktop\Work\Knee Deep Audio\Unicorn Singularity\US_HorrorGameJam_Audio\Horror Game Jam\.cache\Windows\SFX\Meat_Slice_08_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\HGJ_IG_Ambiences\HGJ_IG_PLY_Death\Meat_Slice_08		249900
+	938969356	HGJ_IG_STG_WaterDrip_01	Y:\Desktop\Work\Knee Deep Audio\Unicorn Singularity\US_HorrorGameJam_Audio\Horror Game Jam\.cache\Windows\SFX\HGJ_STG_WaterDrip_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\HGJ_IG_Ambiences\HGJ_IG_STG\HGJ_IG_STG_WaterDrip_01		387284
+	964928842	HGJ_IG_STG_FemScream_01	Y:\Desktop\Work\Knee Deep Audio\Unicorn Singularity\US_HorrorGameJam_Audio\Horror Game Jam\.cache\Windows\SFX\HGJ_STG_FemScream_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\HGJ_IG_Ambiences\HGJ_IG_STG\HGJ_IG_STG_FemScream_01		774504
+	994170687	HGJ_STG_Static_01	Y:\Desktop\Work\Knee Deep Audio\Unicorn Singularity\US_HorrorGameJam_Audio\Horror Game Jam\.cache\Windows\SFX\HGJ_STG_Static_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\HGJ_IG_Ambiences\HGJ_IG_BG\HGJ_STG_Static_01		8777040
+	1009319747	HGJ_IG_STG_FemScream_04	Y:\Desktop\Work\Knee Deep Audio\Unicorn Singularity\US_HorrorGameJam_Audio\Horror Game Jam\.cache\Windows\SFX\HGJ_STG_FemScream_04_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\HGJ_IG_Ambiences\HGJ_IG_STG\HGJ_IG_STG_FemScream_04		774504
+	1033218552	Meat_Slice_02	Y:\Desktop\Work\Knee Deep Audio\Unicorn Singularity\US_HorrorGameJam_Audio\Horror Game Jam\.cache\Windows\SFX\Meat_Slice_02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\HGJ_IG_Ambiences\HGJ_IG_PLY_Death\Meat_Slice_02		288336
+	1044765477	HGJ_IG_AMB_NST_Calm_Drone_01	Y:\Desktop\Work\Knee Deep Audio\Unicorn Singularity\US_HorrorGameJam_Audio\Horror Game Jam\.cache\Windows\SFX\HGJ_AMB_SlasherStage_01_Drone_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\HGJ_IG_Ambiences\HGJ_IG_AMB_NST_Calm_Drone_01		4130408
+	1057847352	HGJ_IG_PLY_AMB_HeartBeat_02	Y:\Desktop\Work\Knee Deep Audio\Unicorn Singularity\US_HorrorGameJam_Audio\Horror Game Jam\.cache\Windows\SFX\HeartBeat_Second_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\HGJ_IG_Ambiences\HGJ_IG_PLY_AMB_Heartbeat\HGJ_IG_PLY_AMB_HeartBeat_02		354448
+

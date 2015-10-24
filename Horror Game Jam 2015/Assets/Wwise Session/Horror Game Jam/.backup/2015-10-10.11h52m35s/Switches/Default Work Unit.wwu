@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3E817388-0606-4F2C-BCE4-3224793E1855}" SchemaVersion="69">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{3E817388-0606-4F2C-BCE4-3224793E1855}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="New_Switch_Group" ID="{CD24C379-FF71-4826-9304-04319CB78672}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A7F5EF91-C33A-4C63-AC97-27424FA963B6}" SchemaVersion="69">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{A7F5EF91-C33A-4C63-AC97-27424FA963B6}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Draft Shit show" ID="{A81FC2E6-2778-4D09-8BBB-C0CD202FEFAA}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_HGJ_AMB_In_Game" ID="{ED1DD8F8-B8DD-4D3C-AEE3-7B088E023B21}" WorkUnitID="{B36FAB68-81B7-4C0E-97FE-21F33F29EA4A}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="STG_Test" ID="{905627BD-8C49-452E-88CE-118BBF4A5CCD}" WorkUnitID="{3711841F-EC1D-4C52-870A-26339413CE52}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_HGJ_STA_Danger_Zone" ID="{FBA65F5E-5B26-4DCF-BC05-A2DE42A7397E}" WorkUnitID="{B36FAB68-81B7-4C0E-97FE-21F33F29EA4A}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_In_Game_Music" ID="{A171E9FE-80FA-483D-A8F1-C00E60A81E47}" WorkUnitID="{B36FAB68-81B7-4C0E-97FE-21F33F29EA4A}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Stage_02" ID="{922CADAE-01AB-45EA-8F51-B42DA449EFE6}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Stage_03" ID="{64957ADA-09AF-4D06-9EE6-32038E52DC17}"/>
+							<Value>100</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Stage_03" ID="{11E36663-EEA6-4F08-BDAE-7EA7D8B4DE65}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

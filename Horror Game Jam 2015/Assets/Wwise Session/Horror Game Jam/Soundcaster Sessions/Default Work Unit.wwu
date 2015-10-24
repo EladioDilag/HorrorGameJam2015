@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A7F5EF91-C33A-4C63-AC97-27424FA963B6}" SchemaVersion="70">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{A7F5EF91-C33A-4C63-AC97-27424FA963B6}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Draft Shit show" ID="{A81FC2E6-2778-4D09-8BBB-C0CD202FEFAA}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_IG_Ambiences" ID="{FAEA92D7-F21F-4254-8DF4-C70EF316D22C}" WorkUnitID="{B36FAB68-81B7-4C0E-97FE-21F33F29EA4A}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Stage_02" ID="{922CADAE-01AB-45EA-8F51-B42DA449EFE6}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Stage_03" ID="{64957ADA-09AF-4D06-9EE6-32038E52DC17}"/>
+							<Value>100</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{6456C101-131F-4D53-BF37-B9EA87A37F7E}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Danger" ID="{CE7F5C7C-B21F-45FC-B198-74E07BDA8149}"/>
+						<CurrentSwitchRef Name="Concrete" ID="{4502BBFA-2DDB-4D13-93E1-37AD9BDDC49B}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{520FD3F6-5A61-45D2-BFE2-26B1FB6F52CA}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_IG_Ambiences" ID="{FAEA92D7-F21F-4254-8DF4-C70EF316D22C}" WorkUnitID="{B36FAB68-81B7-4C0E-97FE-21F33F29EA4A}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Stage_02" ID="{922CADAE-01AB-45EA-8F51-B42DA449EFE6}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Stage_03" ID="{64957ADA-09AF-4D06-9EE6-32038E52DC17}"/>
+							<Value>100</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Dead" ID="{59045B7C-B1B4-4E9E-B0E9-BB50232E5F73}"/>
+						<CurrentSwitchRef Name="Concrete" ID="{4502BBFA-2DDB-4D13-93E1-37AD9BDDC49B}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

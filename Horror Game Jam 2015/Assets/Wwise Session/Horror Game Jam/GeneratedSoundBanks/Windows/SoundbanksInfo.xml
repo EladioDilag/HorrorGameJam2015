@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>/Users/KDS/Library/Application Support/Wwise/Bottles/wwise/dosdevices/y:/Desktop/Work/Knee Deep Audio/Unicorn Singularity/US_HorrorGameJam_Audio/Horror Game Jam/</ProjectRoot>
+		<SourceFilesRoot>/Users/KDS/Library/Application Support/Wwise/Bottles/wwise/dosdevices/y:/Desktop/Work/Knee Deep Audio/Unicorn Singularity/US_HorrorGameJam_Audio/Horror Game Jam/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/KDS/Library/Application Support/Wwise/Bottles/wwise/dosdevices/y:/Desktop/Work/Knee Deep Audio/Unicorn Singularity/US_HorrorGameJam_Audio/Horror Game Jam/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/KDS/Library/Application Support/Wwise/Bottles/wwise/dosdevices/y:/Desktop/Work/Knee Deep Audio/Unicorn Singularity/US_HorrorGameJam_Audio/Horror Game Jam/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1426279440" Name="Do_Not_Touch"/>
+				<Event Id="676781980" Name="Play_IG_Ambiences"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="5557524" Language="SFX">
+					<ShortName>HGJ_TRN_Out_01.wav</ShortName>
+					<Path>SFX/HGJ_TRN_Out_01_9E69E797.wem</Path>
+				</File>
+				<File Id="57475360" Language="SFX">
+					<ShortName>HGJ_STG_FemScream_03.wav</ShortName>
+					<Path>SFX/HGJ_STG_FemScream_03_9E69E797.wem</Path>
+				</File>
+				<File Id="59245805" Language="SFX">
+					<ShortName>HGJ_AMB_SlasherStage_02.wav</ShortName>
+					<Path>SFX/HGJ_AMB_SlasherStage_02_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="74446755" Language="SFX">
+					<ShortName>HGJ_AMB_SlasherStage_01_Wind.wav</ShortName>
+					<Path>SFX/HGJ_AMB_SlasherStage_01_Wind_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="92653198" Language="SFX">
+					<ShortName>HGJ_STG_ThunderStorm_01.wav</ShortName>
+					<Path>SFX/HGJ_STG_ThunderStorm_01_9E69E797.wem</Path>
+				</File>
+				<File Id="157065427" Language="SFX">
+					<ShortName>HGJ_FinalStage_Drums.wav</ShortName>
+					<Path>SFX/HGJ_FinalStage_Drums_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="169067542" Language="SFX">
+					<ShortName>HGJ_STG_WaterDrip_02.wav</ShortName>
+					<Path>SFX/HGJ_STG_WaterDrip_02_9E69E797.wem</Path>
+				</File>
+				<File Id="192012326" Language="SFX">
+					<ShortName>Meat_Slice_05.wav</ShortName>
+					<Path>SFX/Meat_Slice_05_9E69E797.wem</Path>
+				</File>
+				<File Id="288749758" Language="SFX">
+					<ShortName>HGJ_STG_DoorClose_04.wav</ShortName>
+					<Path>SFX/HGJ_STG_DoorClose_04_9E69E797.wem</Path>
+				</File>
+				<File Id="296690286" Language="SFX">
+					<ShortName>HeartBeat_First.wav</ShortName>
+					<Path>SFX/HeartBeat_First_9E69E797.wem</Path>
+				</File>
+				<File Id="308725935" Language="SFX">
+					<ShortName>Meat_Slice_03.wav</ShortName>
+					<Path>SFX/Meat_Slice_03_9E69E797.wem</Path>
+				</File>
+				<File Id="375968327" Language="SFX">
+					<ShortName>Meat_Slice_10.wav</ShortName>
+					<Path>SFX/Meat_Slice_10_9E69E797.wem</Path>
+				</File>
+				<File Id="450286571" Language="SFX">
+					<ShortName>HGJ_STG_MetalDoorBang_01.wav</ShortName>
+					<Path>SFX/HGJ_STG_MetalDoorBang_01_9E69E797.wem</Path>
+				</File>
+				<File Id="521230012" Language="SFX">
+					<ShortName>HGJ_STG_WaterDrip_03.wav</ShortName>
+					<Path>SFX/HGJ_STG_WaterDrip_03_9E69E797.wem</Path>
+				</File>
+				<File Id="580346311" Language="SFX">
+					<ShortName>HGJ_STG_FemScream_02.wav</ShortName>
+					<Path>SFX/HGJ_STG_FemScream_02_9E69E797.wem</Path>
+				</File>
+				<File Id="581314811" Language="SFX">
+					<ShortName>Meat_Slice_Heavy_02.wav</ShortName>
+					<Path>SFX/Meat_Slice_Heavy_02_9E69E797.wem</Path>
+				</File>
+				<File Id="608994833" Language="SFX">
+					<ShortName>HGJ_TRN_Out_02.wav</ShortName>
+					<Path>SFX/HGJ_TRN_Out_02_9E69E797.wem</Path>
+				</File>
+				<File Id="665170856" Language="SFX">
+					<ShortName>MX_GameJam_Trn_In_01.wav</ShortName>
+					<Path>SFX/MX_GameJam_Trn_In_01_9E69E797.wem</Path>
+				</File>
+				<File Id="719459161" Language="SFX">
+					<ShortName>HGJ_STG_FemScream_05.wav</ShortName>
+					<Path>SFX/HGJ_STG_FemScream_05_9E69E797.wem</Path>
+				</File>
+				<File Id="821737202" Language="SFX">
+					<ShortName>HGJ_STG_Hospital_01.wav</ShortName>
+					<Path>SFX/HGJ_STG_Hospital_01_9E69E797.wem</Path>
+				</File>
+				<File Id="860772263" Language="SFX">
+					<ShortName>HGJ_STG_DoorClose_06.wav</ShortName>
+					<Path>SFX/HGJ_STG_DoorClose_06_9E69E797.wem</Path>
+				</File>
+				<File Id="867409335" Language="SFX">
+					<ShortName>Meat_Slice_08.wav</ShortName>
+					<Path>SFX/Meat_Slice_08_9E69E797.wem</Path>
+				</File>
+				<File Id="938969356" Language="SFX">
+					<ShortName>HGJ_STG_WaterDrip_01.wav</ShortName>
+					<Path>SFX/HGJ_STG_WaterDrip_01_9E69E797.wem</Path>
+				</File>
+				<File Id="964928842" Language="SFX">
+					<ShortName>HGJ_STG_FemScream_01.wav</ShortName>
+					<Path>SFX/HGJ_STG_FemScream_01_9E69E797.wem</Path>
+				</File>
+				<File Id="994170687" Language="SFX">
+					<ShortName>HGJ_STG_Static_01.wav</ShortName>
+					<Path>SFX/HGJ_STG_Static_01_9E69E797.wem</Path>
+				</File>
+				<File Id="1009319747" Language="SFX">
+					<ShortName>HGJ_STG_FemScream_04.wav</ShortName>
+					<Path>SFX/HGJ_STG_FemScream_04_9E69E797.wem</Path>
+				</File>
+				<File Id="1033218552" Language="SFX">
+					<ShortName>Meat_Slice_02.wav</ShortName>
+					<Path>SFX/Meat_Slice_02_9E69E797.wem</Path>
+				</File>
+				<File Id="1044765477" Language="SFX">
+					<ShortName>HGJ_AMB_SlasherStage_01_Drone.wav</ShortName>
+					<Path>SFX/HGJ_AMB_SlasherStage_01_Drone_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="1057847352" Language="SFX">
+					<ShortName>HeartBeat_Second.wav</ShortName>
+					<Path>SFX/HeartBeat_Second_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

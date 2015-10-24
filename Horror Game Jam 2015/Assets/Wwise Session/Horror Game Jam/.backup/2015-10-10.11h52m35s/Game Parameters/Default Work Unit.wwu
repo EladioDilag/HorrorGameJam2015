@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E0BBB8F6-6E62-47AC-804E-10D8FBFE0557}" SchemaVersion="69">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{E0BBB8F6-6E62-47AC-804E-10D8FBFE0557}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Stage_03" ID="{64957ADA-09AF-4D06-9EE6-32038E52DC17}"/>
+				<GameParameter Name="Stage_02" ID="{922CADAE-01AB-45EA-8F51-B42DA449EFE6}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

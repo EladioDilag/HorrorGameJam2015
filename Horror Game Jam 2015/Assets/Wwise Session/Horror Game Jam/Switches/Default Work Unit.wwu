@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3E817388-0606-4F2C-BCE4-3224793E1855}" SchemaVersion="70">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{3E817388-0606-4F2C-BCE4-3224793E1855}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="State_of_Player" ID="{CD24C379-FF71-4826-9304-04319CB78672}">
+					<ChildrenList>
+						<Switch Name="Danger" ID="{CE7F5C7C-B21F-45FC-B198-74E07BDA8149}"/>
+						<Switch Name="Noped" ID="{2A744866-47EC-4892-B10C-9001132AE5BA}"/>
+						<Switch Name="Start" ID="{179A7BD5-E6D2-4477-B088-0FE56299D3A7}"/>
+						<Switch Name="Dead" ID="{59045B7C-B1B4-4E9E-B0E9-BB50232E5F73}"/>
+						<Switch Name="You_Are_Fucked" ID="{0E114563-F367-4E56-8709-3DB23FCBA60C}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Materials" ID="{79C483FD-E330-48CA-A000-675759241ED3}">
+					<ChildrenList>
+						<Switch Name="Concrete" ID="{4502BBFA-2DDB-4D13-93E1-37AD9BDDC49B}"/>
+						<Switch Name="Dirt" ID="{1D0218C3-85AC-4CA6-AACF-CDFCCC2BD290}"/>
+						<Switch Name="Grass" ID="{934B163A-43C5-4FEF-84C1-E0E44AF978DA}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

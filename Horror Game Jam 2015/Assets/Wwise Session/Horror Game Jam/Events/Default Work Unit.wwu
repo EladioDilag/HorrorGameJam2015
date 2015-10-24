@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B36FAB68-81B7-4C0E-97FE-21F33F29EA4A}" SchemaVersion="70">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{B36FAB68-81B7-4C0E-97FE-21F33F29EA4A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_IG_Ambiences" ID="{FAEA92D7-F21F-4254-8DF4-C70EF316D22C}">
+					<ChildrenList>
+						<Action Name="Play" ID="{B8A90DB1-D9EE-43C2-940A-0C060F5E0D91}" ShortID="712608734" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{6CB6A1BB-3502-40E0-BC47-B58AD8B83789}" Global="false">
+									<ObjectRef Name="HGJ_IG_Ambiences" ID="{E0A7BC56-26EC-4629-9DEC-3DA7DD17DB76}" WorkUnitID="{3711841F-EC1D-4C52-870A-26339413CE52}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Do_Not_Touch" ID="{D1B4C67B-2C1D-46F8-9658-1995F6B4A143}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
