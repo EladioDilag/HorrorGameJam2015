@@ -38,40 +38,37 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\BaseCharacter.cs" />
      <Compile Include="Assets\Scripts\CharacterController.cs" />
-     <Compile Include="Assets\Scripts\Items\Item_Base.cs" />
-     <Compile Include="Assets\Scripts\Items\Item_CellPhone.cs" />
      <None Include="Assets\Fonts\Nerd\Notice - License.txt" />
-     <None Include="Assets\Fonts\Mechanic\fontinfo.txt" />
      <None Include="Assets\Fonts\Fighter\press gang free font license.txt" />
-     <None Include="Assets\Wwise Session\Horror Game Jam\GeneratedSoundBanks\Windows\SoundbanksInfo.xml" />
-     <None Include="Assets\Wwise Session\Horror Game Jam\IncrementalSoundBankData.xml" />
-     <None Include="Assets\Fonts\Death Girl\OFL.txt" />
-     <None Include="Assets\Wwise Session\Horror Game Jam\GeneratedSoundBanks\Windows\Init.txt" />
-     <None Include="Assets\Fonts\Tech Nerd\androida_insomnia_regular_read_me.txt" />
-     <None Include="Assets\Fonts\Rouge\PLEASE READ!.txt" />
-     <None Include="Assets\Fonts\Slasher\1001fonts-fibyngerowa-eula.txt" />
      <None Include="Assets\Wwise Session\Horror Game Jam\GeneratedSoundBanks\Windows\Main.txt" />
      <None Include="Assets\Wwise Session\Horror Game Jam\GeneratedSoundBanks\Windows\PluginInfo.xml" />
+     <None Include="Assets\Fonts\Tech Nerd\androida_insomnia_regular_read_me.txt" />
+     <None Include="Assets\Fonts\Mechanic\fontinfo.txt" />
+     <None Include="Assets\Wwise Session\Horror Game Jam\GeneratedSoundBanks\Windows\SoundbanksInfo.xml" />
+     <None Include="Assets\Fonts\Slasher\1001fonts-fibyngerowa-eula.txt" />
+     <None Include="Assets\Wwise Session\Horror Game Jam\GeneratedSoundBanks\Windows\Init.txt" />
+     <None Include="Assets\Fonts\Rouge\PLEASE READ!.txt" />
+     <None Include="Assets\Fonts\Death Girl\OFL.txt" />
+     <None Include="Assets\Wwise Session\Horror Game Jam\IncrementalSoundBankData.xml" />
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
- <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
+ <HintPath>E:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
- <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ <HintPath>E:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
