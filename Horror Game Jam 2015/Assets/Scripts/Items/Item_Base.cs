@@ -5,6 +5,8 @@ public class Item_Base : MonoBehaviour {
 
     public    int num_Uses  { get; set; }
 
+    public  float stun_Dur  { get; set; }
+
     protected int num_Slots { get; set; }
     
 	// Use this for initialization

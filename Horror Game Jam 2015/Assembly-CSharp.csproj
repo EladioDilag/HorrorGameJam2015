@@ -49,6 +49,9 @@
      <Compile Include="Assets\Scripts\CharacterController.cs" />
      <Compile Include="Assets\Scripts\Items\Item_Base.cs" />
      <Compile Include="Assets\Scripts\Items\Item_CellPhone.cs" />
+     <Compile Include="Assets\Scripts\Items\Item_FireAxe.cs" />
+     <Compile Include="Assets\Scripts\Items\Item_SmokeBomb.cs" />
+     <Compile Include="Assets\Scripts\Items\Item_WalkieTalkie.cs" />
      <None Include="Assets\Fonts\Nerd\Notice - License.txt" />
      <None Include="Assets\Fonts\Mechanic\fontinfo.txt" />
      <None Include="Assets\Fonts\Fighter\press gang free font license.txt" />
