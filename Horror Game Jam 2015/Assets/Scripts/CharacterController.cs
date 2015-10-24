@@ -14,7 +14,6 @@ public class CharacterController : MonoBehaviour {
         currentSpeed = walkSpeed;
     }
 
-
 	// Update is called once per frame
 	void Update () {
         float horizontal = Input.GetAxis("Horizontal");
@@ -30,8 +29,7 @@ public class CharacterController : MonoBehaviour {
             currentSpeed = walkSpeed;
         }
 
-
-        body.velocity = new Vector2(Mathf.Lerp(0, (horizontal * currentSpeed), 1), 
-                                    Mathf.Lerp(0, (vertical * currentSpeed), 1));
+        body.velocity = new Vector2(Mathf.Lerp(0, (horizontal), 1),
+                                    Mathf.Lerp(0, (vertical), 1)).normalized * currentSpeed;
     }
 }
