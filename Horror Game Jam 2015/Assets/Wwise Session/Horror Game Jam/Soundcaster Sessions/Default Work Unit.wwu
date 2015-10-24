@@ -47,7 +47,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Dead" ID="{59045B7C-B1B4-4E9E-B0E9-BB50232E5F73}"/>
+						<CurrentSwitchRef Name="Danger" ID="{CE7F5C7C-B21F-45FC-B198-74E07BDA8149}"/>
 						<CurrentSwitchRef Name="Concrete" ID="{4502BBFA-2DDB-4D13-93E1-37AD9BDDC49B}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>

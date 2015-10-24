@@ -18,6 +18,17 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Do_Not_Touch" ID="{D1B4C67B-2C1D-46F8-9658-1995F6B4A143}"/>
+				<Event Name="Play_Tit_Test" ID="{9416538D-50E2-461B-AEE8-55CA8C15051D}">
+					<ChildrenList>
+						<Action Name="Play" ID="{208400F4-2705-4D3C-874D-683F49278194}" ShortID="597354799" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{58BF533C-D46F-4BBF-8A1E-1202FE83BC63}" Global="false">
+									<ObjectRef Name="HGJ_IG_STG_FemScream_03" ID="{B0853F5B-DBE0-4382-8B86-E94B1D8344F1}" WorkUnitID="{3711841F-EC1D-4C52-870A-26339413CE52}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
