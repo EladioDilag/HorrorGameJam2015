@@ -38,37 +38,78 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\BaseCharacter.cs" />
      <Compile Include="Assets\Scripts\CharacterController.cs" />
-     <None Include="Assets\Fonts\Nerd\Notice - License.txt" />
-     <None Include="Assets\Fonts\Fighter\press gang free font license.txt" />
-     <None Include="Assets\Wwise Session\Horror Game Jam\GeneratedSoundBanks\Windows\Main.txt" />
-     <None Include="Assets\Wwise Session\Horror Game Jam\GeneratedSoundBanks\Windows\PluginInfo.xml" />
+     <Compile Include="Assets\Scripts\Items\Item_Base.cs" />
+     <Compile Include="Assets\Scripts\Items\Item_CellPhone.cs" />
+     <Compile Include="Assets\Scripts\Items\Item_FireAxe.cs" />
+     <Compile Include="Assets\Scripts\Items\Item_SmokeBomb.cs" />
+     <Compile Include="Assets\Scripts\Items\Item_WalkieTalkie.cs" />
+     <Compile Include="Assets\unity-movement-ai\Scripts\ArriveUnit.cs" />
+     <Compile Include="Assets\unity-movement-ai\Scripts\Camera\CameraMovement.cs" />
+     <Compile Include="Assets\unity-movement-ai\Scripts\Camera\InfiniteGrid.cs" />
+     <Compile Include="Assets\unity-movement-ai\Scripts\ColAvoidUnit.cs" />
+     <Compile Include="Assets\unity-movement-ai\Scripts\EvadeUnit.cs" />
+     <Compile Include="Assets\unity-movement-ai\Scripts\FleeUnit.cs" />
+     <Compile Include="Assets\unity-movement-ai\Scripts\FlockingUnit.cs" />
+     <Compile Include="Assets\unity-movement-ai\Scripts\FollowPathUnit.cs" />
+     <Compile Include="Assets\unity-movement-ai\Scripts\HideUnit.cs" />
+     <Compile Include="Assets\unity-movement-ai\Scripts\InterposeUnit.cs" />
+     <Compile Include="Assets\unity-movement-ai\Scripts\Movement\Cohesion.cs" />
+     <Compile Include="Assets\unity-movement-ai\Scripts\Movement\CollisionAvoidance.cs" />
+     <Compile Include="Assets\unity-movement-ai\Scripts\Movement\Evade.cs" />
+     <Compile Include="Assets\unity-movement-ai\Scripts\Movement\Flee.cs" />
+     <Compile Include="Assets\unity-movement-ai\Scripts\Movement\FollowPath.cs" />
+     <Compile Include="Assets\unity-movement-ai\Scripts\Movement\Hide.cs" />
+     <Compile Include="Assets\unity-movement-ai\Scripts\Movement\LinePath.cs" />
+     <Compile Include="Assets\unity-movement-ai\Scripts\Movement\NearSensor.cs" />
+     <Compile Include="Assets\unity-movement-ai\Scripts\Movement\OffsetPursuit.cs" />
+     <Compile Include="Assets\unity-movement-ai\Scripts\Movement\Pursue.cs" />
+     <Compile Include="Assets\unity-movement-ai\Scripts\Movement\Separation.cs" />
+     <Compile Include="Assets\unity-movement-ai\Scripts\Movement\SteeringBasics.cs" />
+     <Compile Include="Assets\unity-movement-ai\Scripts\Movement\VelocityMatch.cs" />
+     <Compile Include="Assets\unity-movement-ai\Scripts\Movement\WallAvoidance.cs" />
+     <Compile Include="Assets\unity-movement-ai\Scripts\Movement\Wander1.cs" />
+     <Compile Include="Assets\unity-movement-ai\Scripts\Movement\Wander2.cs" />
+     <Compile Include="Assets\unity-movement-ai\Scripts\OffsetPursuitUnit.cs" />
+     <Compile Include="Assets\unity-movement-ai\Scripts\PursueUnit.cs" />
+     <Compile Include="Assets\unity-movement-ai\Scripts\ScreenBoundary.cs" />
+     <Compile Include="Assets\unity-movement-ai\Scripts\SeekUnit.cs" />
+     <Compile Include="Assets\unity-movement-ai\Scripts\Spawner.cs" />
+     <Compile Include="Assets\unity-movement-ai\Scripts\WallAvoidanceUnit.cs" />
+     <Compile Include="Assets\unity-movement-ai\Scripts\Wander1Unit.cs" />
+     <Compile Include="Assets\unity-movement-ai\Scripts\Wander2Unit.cs" />
+     <Compile Include="Assets\unity-movement-ai\Scripts\WanderAvoidUnit.cs" />
      <None Include="Assets\Fonts\Tech Nerd\androida_insomnia_regular_read_me.txt" />
-     <None Include="Assets\Fonts\Mechanic\fontinfo.txt" />
-     <None Include="Assets\Wwise Session\Horror Game Jam\GeneratedSoundBanks\Windows\SoundbanksInfo.xml" />
+     <None Include="Assets\Fonts\Fighter\press gang free font license.txt" />
      <None Include="Assets\Fonts\Slasher\1001fonts-fibyngerowa-eula.txt" />
      <None Include="Assets\Wwise Session\Horror Game Jam\GeneratedSoundBanks\Windows\Init.txt" />
-     <None Include="Assets\Fonts\Rouge\PLEASE READ!.txt" />
      <None Include="Assets\Fonts\Death Girl\OFL.txt" />
+     <None Include="Assets\Fonts\Nerd\Notice - License.txt" />
+     <None Include="Assets\Wwise Session\Horror Game Jam\GeneratedSoundBanks\Windows\Main.txt" />
+     <None Include="Assets\Wwise Session\Horror Game Jam\GeneratedSoundBanks\Windows\PluginInfo.xml" />
      <None Include="Assets\Wwise Session\Horror Game Jam\IncrementalSoundBankData.xml" />
+     <None Include="Assets\Fonts\Rouge\PLEASE READ!.txt" />
+     <None Include="Assets\Wwise Session\Horror Game Jam\GeneratedSoundBanks\Windows\SoundbanksInfo.xml" />
+     <None Include="Assets\Fonts\Mechanic\fontinfo.txt" />
  <Reference Include="UnityEngine.UI">
- <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
- <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
- <HintPath>E:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
- <HintPath>E:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
