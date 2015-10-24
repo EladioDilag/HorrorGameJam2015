@@ -21,6 +21,7 @@
 			<IncludedEvents>
 				<Event Id="1426279440" Name="Do_Not_Touch"/>
 				<Event Id="676781980" Name="Play_IG_Ambiences"/>
+				<Event Id="2880343400" Name="Play_Tit_Test"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="5557524" Language="SFX">

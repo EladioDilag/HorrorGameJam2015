@@ -15,6 +15,7 @@ namespace AK
     {
         static const AkUniqueID DO_NOT_TOUCH = 1426279440U;
         static const AkUniqueID PLAY_IG_AMBIENCES = 676781980U;
+        static const AkUniqueID PLAY_TIT_TEST = 2880343400U;
     } // namespace EVENTS
 
     namespace STATES

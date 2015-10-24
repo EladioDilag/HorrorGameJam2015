@@ -1,6 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
 	676781980	Play_IG_Ambiences			\Default Work Unit\Play_IG_Ambiences	
 	1426279440	Do_Not_Touch			\Default Work Unit\Do_Not_Touch	
+	2880343400	Play_Tit_Test			\Default Work Unit\Play_Tit_Test	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	4154134024	State_of_Player			\Default Work Unit\State_of_Player	
