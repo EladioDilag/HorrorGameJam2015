@@ -1,18 +1,17 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class OldController : MonoBehaviour {
+public class CharacterController : MonoBehaviour {
 
     public float walkSpeed;
     public float sprintSpeed;
-    public float sprintDuration = 100f;
-    public float staminaGain = 0.5f;
-    public float staminaLoss = 1f;
-    public float minimumStamina = 0f;
+    public float sprintDuration = 1000;
+    public float staminaGain = 1;
+    public float staminaLoss = 2;
+    public float minimumStamina = 50;
 
     private float currentSpeed;
     private Rigidbody2D body;
-    private Animator anim;
     private bool sprintReady;
     private bool playerIsSprinting;
     private float lastSprintUsed;
@@ -20,7 +19,6 @@ public class OldController : MonoBehaviour {
 
     void Start() {
         body = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>();
         currentSpeed = walkSpeed;
         lastSprintUsed = Time.deltaTime;
     }
@@ -29,9 +27,6 @@ public class OldController : MonoBehaviour {
 	void Update () {
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
-
-        anim.SetFloat("horizontalInput", horizontal);
-        anim.SetFloat("verticalInput", vertical);
 
         // Switch between sprinting and walking speeds
         if (Input.GetKey (KeyCode.LeftShift) && sprintStamina >= 0)
