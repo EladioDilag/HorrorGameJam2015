@@ -46,7 +46,15 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\BaseCharacter.cs" />
+     <Compile Include="Assets\Scripts\CharController.cs" />
      <Compile Include="Assets\Scripts\CharacterController.cs" />
+     <Compile Include="Assets\Scripts\Characters\Character_Base.cs" />
+     <Compile Include="Assets\Scripts\Characters\Character_Combatant.cs" />
+     <Compile Include="Assets\Scripts\Characters\Character_Geek.cs" />
+     <Compile Include="Assets\Scripts\Characters\Character_Killer.cs" />
+     <Compile Include="Assets\Scripts\Characters\Character_Mechanic.cs" />
+     <Compile Include="Assets\Scripts\Characters\Character_Nerd.cs" />
+     <Compile Include="Assets\Scripts\Characters\Character_Rogue.cs" />
      <Compile Include="Assets\Scripts\Items\Item_Base.cs" />
      <Compile Include="Assets\Scripts\Items\Item_CellPhone.cs" />
      <Compile Include="Assets\Scripts\Items\Item_FireAxe.cs" />
@@ -87,18 +95,18 @@
      <Compile Include="Assets\unity-movement-ai\Scripts\Wander1Unit.cs" />
      <Compile Include="Assets\unity-movement-ai\Scripts\Wander2Unit.cs" />
      <Compile Include="Assets\unity-movement-ai\Scripts\WanderAvoidUnit.cs" />
-     <None Include="Assets\Fonts\Tech Nerd\androida_insomnia_regular_read_me.txt" />
-     <None Include="Assets\Fonts\Fighter\press gang free font license.txt" />
      <None Include="Assets\Fonts\Slasher\1001fonts-fibyngerowa-eula.txt" />
-     <None Include="Assets\Wwise Session\Horror Game Jam\GeneratedSoundBanks\Windows\Init.txt" />
-     <None Include="Assets\Fonts\Death Girl\OFL.txt" />
-     <None Include="Assets\Fonts\Nerd\Notice - License.txt" />
-     <None Include="Assets\Wwise Session\Horror Game Jam\GeneratedSoundBanks\Windows\Main.txt" />
-     <None Include="Assets\Wwise Session\Horror Game Jam\GeneratedSoundBanks\Windows\PluginInfo.xml" />
-     <None Include="Assets\Wwise Session\Horror Game Jam\IncrementalSoundBankData.xml" />
-     <None Include="Assets\Fonts\Rouge\PLEASE READ!.txt" />
-     <None Include="Assets\Wwise Session\Horror Game Jam\GeneratedSoundBanks\Windows\SoundbanksInfo.xml" />
      <None Include="Assets\Fonts\Mechanic\fontinfo.txt" />
+     <None Include="Assets\Fonts\Nerd\Notice - License.txt" />
+     <None Include="Assets\Fonts\Rouge\PLEASE READ!.txt" />
+     <None Include="Assets\Fonts\Death Girl\OFL.txt" />
+     <None Include="Assets\Wwise Session\Horror Game Jam\GeneratedSoundBanks\Windows\Init.txt" />
+     <None Include="Assets\Wwise Session\Horror Game Jam\GeneratedSoundBanks\Windows\SoundbanksInfo.xml" />
+     <None Include="Assets\Wwise Session\Horror Game Jam\GeneratedSoundBanks\Windows\PluginInfo.xml" />
+     <None Include="Assets\Fonts\Tech Nerd\androida_insomnia_regular_read_me.txt" />
+     <None Include="Assets\Wwise Session\Horror Game Jam\GeneratedSoundBanks\Windows\Main.txt" />
+     <None Include="Assets\Fonts\Fighter\press gang free font license.txt" />
+     <None Include="Assets\Wwise Session\Horror Game Jam\IncrementalSoundBankData.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
